@@ -26,7 +26,7 @@ public class Main {
         Piano biggerPiano = piano.clone();
 
         int addAmount;
-        System.out.println("Enter amount: "); //selling at a higher price for particular reason
+        System.out.println("Enter amount: "); //selling at a higher price for no particular reason
 
         addAmount = Integer.parseInt(sc.next());
         biggerPiano.increasePrice(addAmount);
