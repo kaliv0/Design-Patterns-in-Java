@@ -1,3 +1,5 @@
+//not discussed by GoG => Create an object without exposing the instantiation logic to the client.
+
 package com.company;
 
 import java.util.Scanner;
