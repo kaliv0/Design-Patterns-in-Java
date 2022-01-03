@@ -1,3 +1,8 @@
+/*
+Provide an interface for creating families of related or dependent objects without 
+specifying their concrete classes.
+*/
+
 package com.company;
 
 import java.util.Scanner;
