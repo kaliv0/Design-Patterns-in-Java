@@ -20,7 +20,7 @@ public class Client {
 
 		// ------------------------------------------------------------
 
-		System.out.println("Creating a house and adding floor");
+		System.out.println("Creating a house and adding an additional floor");
 
 		FloorDecorator floorDecorator = new FloorDecorator();
 		floorDecorator.setCreator(houseCreator);
@@ -30,7 +30,7 @@ public class Client {
 
 		// -------------------------------------------------------------
 
-		System.out.println("Creating a house, adding floor and painting the walls");
+		System.out.println("Creating a house, adding an additional floor and painting the walls");
 
 		WallDecorator wallDecorator = new WallDecorator();
 		wallDecorator.setCreator(floorDecorator);
