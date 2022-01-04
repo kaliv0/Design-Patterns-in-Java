@@ -1,4 +1,4 @@
-package ProtectionProxy;
+package protectionProxy;
 
 public abstract class Subject {
 
