@@ -6,6 +6,7 @@ public final class Captain {
 
     private Captain() {
     }
+    
 
     public static synchronized Captain getCaptain() {
 
