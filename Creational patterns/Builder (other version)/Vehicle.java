@@ -8,8 +8,10 @@ public class Vehicle {
 
     //ctor
     public Vehicle() {
+
         this.parts = new ArrayList<String>();
     }
+
 
     //methods
     public void add(String part) {
@@ -18,9 +20,9 @@ public class Vehicle {
     }
 
 
-    public void showVehicle() {
+    public void displayInfo() {
 
-        System.out.println("\nVehicle completed as below : ");
+        System.out.println("\nVehicle completed as below: ");
 
         for (String part : parts) {
             System.out.println(part);
