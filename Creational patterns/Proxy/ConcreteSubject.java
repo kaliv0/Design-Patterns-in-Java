@@ -1,4 +1,4 @@
-package ProtectionProxy;
+package protectionProxy;
 
 public class ConcreteSubject extends Subject {
 
