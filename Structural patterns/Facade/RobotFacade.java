@@ -19,7 +19,7 @@ public class RobotFacade {
 		System.out.println("Creation of Android Robot starts.");
 
 		this.body.createBody();
-		this.color.setSteelColor();
+		this.color.setBlackColor();
 
 		this.hands.setAndroidHands(); // prepares hands
 		this.body.createHands(); // actually creates them
