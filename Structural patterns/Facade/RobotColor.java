@@ -2,12 +2,12 @@ package facade;
 
 public class RobotColor {
 
-	public void setSteelColor() {
-		System.out.println("This is steel color robot.");
+	public void setBlackColor() {
+		System.out.println("The color is black.");
 	}
 
 	public void setRedColor() {
-		System.out.println("This is red color robot.");
+		System.out.println("The color is red.");
 	}
 
 }
