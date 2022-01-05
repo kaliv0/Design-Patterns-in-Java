@@ -4,7 +4,7 @@ public class RobotBody {
 
 	// methods for creating robots
 
-	public void createBody() { // why static??
+	public void createBody() { 
 		System.out.println("Creating robot's body.");
 	}
 
@@ -18,7 +18,7 @@ public class RobotBody {
 
 	// methods for destruction
 
-	public void destroyBody() { // why static??
+	public void destroyBody() { 
 		System.out.println("Destroying robot's body.");
 	}
 
