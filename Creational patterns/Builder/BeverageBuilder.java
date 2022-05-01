@@ -15,7 +15,6 @@ public abstract class BeverageBuilder {
 
     //template method that creates beverage object, adds components and returns it
     public final Beverage buildBeverage() {
-
         setBeverageType();
         setWaterQty();
         setMilkQty();
