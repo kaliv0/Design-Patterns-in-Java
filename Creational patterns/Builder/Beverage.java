@@ -1,13 +1,11 @@
 package com.company;
 
 public class Beverage {
-
     private int waterQty;
     private int milkQty;
     private int sugarQty;
     private int powderQty;
     private String beverageName;
-
 
     public int getWaterQty() {
         return waterQty;
@@ -51,11 +49,9 @@ public class Beverage {
 
     @Override
     public String toString() {
-
         return "Hot " + beverageName + "!!!!  ["
                 + waterQty + " ml of water, " + milkQty + "ml of milk, " + sugarQty + " gm of sugar, "
                 + powderQty + " gm of " + beverageName + "]\n";
     }
-
 }
 

@@ -1,7 +1,6 @@
 package com.company;
 
 public class TeaBuilder extends  BeverageBuilder{
-
     @Override
     void setBeverageType() {
         System.out.println("Tea");
@@ -31,6 +30,4 @@ public class TeaBuilder extends  BeverageBuilder{
         System.out.println("Step 4 : Adding 9 Grams of tea powder");
         getBeverage().setPowderQty(9);
     }
-
-
 }

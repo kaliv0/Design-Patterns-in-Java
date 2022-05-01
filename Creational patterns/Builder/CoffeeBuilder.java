@@ -8,7 +8,6 @@ public class CoffeeBuilder extends BeverageBuilder {
         getBeverage().setBeverageName("Coffee");
     }
 
-
     @Override
     void setWaterQty() {
         System.out.println("Step 1 : Boiling water");
@@ -32,6 +31,4 @@ public class CoffeeBuilder extends BeverageBuilder {
         System.out.println("Step 4 : Adding 9 Grams of coffee powder");
         getBeverage().setPowderQty(9);
     }
-
-
 }

@@ -2,17 +2,16 @@ package com.company;
 
 public abstract class BeverageBuilder {
 
-    private Beverage beverage;
-
+    private final Beverage beverage;
 
     public BeverageBuilder() {
         this.beverage = new Beverage();
     }
 
     public Beverage getBeverage() {
+
         return this.beverage;
     }
-
 
     //template method that creates beverage object, adds components and returns it
 

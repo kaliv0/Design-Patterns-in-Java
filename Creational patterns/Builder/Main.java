@@ -4,13 +4,11 @@ construction processes can create different representations
 
 Builder pattern builds complex object using a step by step approach
 */
-
 package com.company;
 
 public class Main {
 
     public static void main(String[] args) {
-
         Beverage tea = HotelWaiter.takeOrder("tea");
         System.out.println(tea);
 
