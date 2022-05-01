@@ -6,7 +6,7 @@ Builder pattern builds complex object using a step by step approach
 */
 package com.company;
 
-public class Main {
+public class Client {
 
     public static void main(String[] args) {
         Beverage tea = HotelWaiter.takeOrder("tea");
