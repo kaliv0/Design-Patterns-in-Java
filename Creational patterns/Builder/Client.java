@@ -15,8 +15,8 @@ public class Client {
         Beverage coffee = HotelWaiter.takeOrder("coffee");
         System.out.println(coffee);
 
-        Beverage water = HotelWaiter.takeOrder("water");
-        //toString method will display "null"
+        HotelWaiter.takeOrder("water");
+        //takeOrder method will return "null"
     }
 }
 

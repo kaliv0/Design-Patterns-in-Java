@@ -14,7 +14,6 @@ public abstract class BeverageBuilder {
     }
 
     //template method that creates beverage object, adds components and returns it
-
     public final Beverage buildBeverage() {
 
         setBeverageType();
@@ -27,7 +26,6 @@ public abstract class BeverageBuilder {
     }
 
     //methods for setting beverage ingredients
-
     abstract void setBeverageType();
 
     abstract void setWaterQty();
@@ -37,5 +35,4 @@ public abstract class BeverageBuilder {
     abstract void setSugarQty();
 
     abstract void setPowderQty();
-
 }

@@ -50,8 +50,9 @@ public class Beverage {
     @Override
     public String toString() {
         return "Hot " + beverageName + "!!!!  ["
-                + waterQty + " ml of water, " + milkQty + "ml of milk, " + sugarQty + " gm of sugar, "
-                + powderQty + " gm of " + beverageName + "]\n";
+                + waterQty + " ml of water, " + milkQty + "ml of milk, "
+                + sugarQty + " gm of sugar, " + powderQty
+                + " gm of " + beverageName + "]\n";
     }
 }
 
