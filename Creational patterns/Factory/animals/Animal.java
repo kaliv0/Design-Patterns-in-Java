@@ -1,7 +1,6 @@
-package com.company;
+package factory.animals;
 
 public abstract class Animal {
 
     public abstract void speak();
-
 }
