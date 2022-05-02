@@ -1,12 +1,12 @@
-package Models.Strategies;
+package models.strategies;
 
 import java.math.BigDecimal;
 
-import Contracts.Strategy;
+import contracts.Strategy;
 
 public class RestStrategy implements Strategy {
     @Override
     public BigDecimal compute(BigDecimal price) {
-        return new BigDecimal(0);
+        return new BigDecimal("0");
     }
 }

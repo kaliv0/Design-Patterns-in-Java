@@ -6,13 +6,13 @@ code receives run-time instructions as to which in a family of algorithms to use
 
 import java.math.BigDecimal;
 
-import Models.*;
+import models.*;
 
 public class Client {
 
     public static void main(String[] args) {
-        var smallerPrice = new BigDecimal(80);
-        var biggerPrice = new BigDecimal(100);
+        var smallerPrice = new BigDecimal("80");
+        var biggerPrice = new BigDecimal("100");
 
         var calculator = new DiscountCalculator();
 

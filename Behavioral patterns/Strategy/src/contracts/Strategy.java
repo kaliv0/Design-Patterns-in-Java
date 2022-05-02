@@ -1,4 +1,4 @@
-package Contracts;
+package contracts;
 
 import java.math.BigDecimal;
 

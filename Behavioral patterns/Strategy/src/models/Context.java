@@ -1,7 +1,7 @@
-package Models;
+package models;
 
-import Contracts.Strategy;
-import Models.Strategies.RestStrategy;
+import contracts.Strategy;
+import models.strategies.RestStrategy;
 
 import java.math.BigDecimal;
 
