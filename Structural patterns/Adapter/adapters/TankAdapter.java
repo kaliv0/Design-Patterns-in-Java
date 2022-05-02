@@ -20,12 +20,10 @@ public class TankAdapter implements Attacker {
 	@Override
 	public void moveForward() {
 		this.tank.driveForward();
-
 	}
 
 	@Override
 	public void reactToHuman(String humanName) {
 		this.tank.assignDriver(humanName);
-
 	}
 }
