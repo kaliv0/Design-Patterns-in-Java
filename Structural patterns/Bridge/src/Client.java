@@ -12,7 +12,6 @@ import movements.*;
 
 public class Client {
     public static void main(String[] args) {
-
         var swim = new Swim();
         var walk = new Walk();
         var fly = new Fly();
