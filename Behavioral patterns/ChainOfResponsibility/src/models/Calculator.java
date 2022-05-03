@@ -20,19 +20,7 @@ public class Calculator {
         _thirdHandler.setNext(_fourthHandler);
     }
 
-    public Handler getFirstHandler() {
-        return _firstHandler;
-    }
-
-    public Handler getSecondHandler() {
-        return _firstHandler;
-    }
-
-    public Handler getThirdHandler() {
-        return _firstHandler;
-    }
-
-    public Handler getFourthHandler() {
-        return _firstHandler;
+    public void processRequest(Request request){
+        _firstHandler.calculate(request);
     }
 }
