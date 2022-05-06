@@ -1,7 +1,6 @@
 package decorators;
 
 public class WallDecorator extends decorators.Decorator {
-
     @Override
     public void makeHouse() {
         super.makeHouse();
