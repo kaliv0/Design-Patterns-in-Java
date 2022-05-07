@@ -1,14 +1,12 @@
 /*
-Define an interface for creating an object, but let subclasses decide which class to instantiate.
-Factory method lets a class defer instantiation to subclasses.
+    Define an interface for creating an object, but let subclasses decide which class to instantiate.
+    Factory method lets a class defer instantiation to subclasses.
 */
 
 package factory;
 
 import factory.animals.Animal;
-import factory.factories.CatFactory;
-import factory.factories.DogFactory;
-import factory.factories.Factory;
+import factory.factories.*;
 
 public class Main {
 
