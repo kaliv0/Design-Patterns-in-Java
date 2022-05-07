@@ -1,6 +1,6 @@
 /*
-  	Convert the interface of a class into another interface that clients expect.
-  	Adapter lets classes work together that could not otherwise because of incompatible interfaces
+   Convert the interface of a class into another interface that clients expect.
+   Adapter lets classes work together that could not otherwise because of incompatible interfaces
  */
 package adapter;
 
