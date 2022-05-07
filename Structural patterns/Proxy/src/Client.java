@@ -1,6 +1,9 @@
 /*
    GoG definition => Provide a surrogate or placeholder for another object to control access to it
 */
+
+import subjects.Proxy;
+
 public class Client {
     public static void main(String[] args) {
         Proxy proxy = new Proxy();
