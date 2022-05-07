@@ -1,10 +1,10 @@
 /*
-The Bridge pattern divides business logic or huge class into separate
-class hierarchies that can be developed independently.
+    The Bridge pattern divides business logic or huge class into separate
+    class hierarchies that can be developed independently.
 
-Difference with the Adapter pattern =>
-"Adapter makes things work after they're designed;
-Bridge makes them work before they are. [GoF, p219]"
+    Difference with the Adapter pattern =>
+    "Adapter makes things work after they're designed;
+    Bridge makes them work before they are. [GoF, p219]"
  */
 
 import animals.*;
